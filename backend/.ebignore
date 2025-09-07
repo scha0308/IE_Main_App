@@ -1,0 +1,26 @@
+﻿# Node / git
+node_modules/
+.git/
+.gitignore
+
+# Python local env + caches
+venv/
+**/__pycache__/
+*.pyc
+
+# Local data / logs
+uploads/
+eb-log.txt
+*.log
+
+# Build leftovers
+dist.json
+dist-config.json
+
+# IDE/editor junk
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
